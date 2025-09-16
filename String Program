@@ -1,0 +1,9 @@
+import java.util.*;
+class Main{
+    public static void main(String[]args){
+        String a = "Zoro";
+        String b = "Luffy";
+        System.out.println("Lenght :"+ a.length() );
+        System.out.println("Char :"+ b.charAt(3));
+    }
+}
