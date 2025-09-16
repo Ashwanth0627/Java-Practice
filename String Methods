@@ -1,0 +1,43 @@
+import java.util.*;
+class Main {
+	public static void main(String[]args) {
+		String a = "Pirate Hunter Rorano Zoro";
+		String b = "Monkey D. Luffy";
+		System.out.println("Lenght :"+ a.length());
+		System.out.println("Char :"+ b.charAt(4));
+		System.out.println("Vice Captian Name :"+a);
+		System.out.println("King of the Pirates:"+b);
+		System.out.println("Uppercase: "+ a.toUpperCase());
+		System.out.println("trimmed: "+ b.trim());
+		System.out.println(a.substring(2));
+		System.out.println(a.substring(2,10));
+		System.out.println(a.contains("Zoro"));
+		System.out.println(a.startsWith("Mo"));
+		System.out.println(a.endsWith("ro"));
+		System.out.println(a.equals("Zoro"));
+		System.out.println(a.equalsIgnoreCase("Zoro"));
+		System.out.println(a.indexOf('o'));
+		System.out.println(a.lastIndexOf('o'));
+		System.out.println(a.replace("Pirate Hunter Rorano Zoro","A"));
+		String []parts= a.trim().split(" ");
+		System.out.println("Split Words");
+		for(String words: parts) {
+			System.out.println(words);
+		}
+		String joined=String.join("_","PIRATE","HUNTER","RORANO","ZORO");
+		System.out.println(joined);
+		String empty="";
+		String blank="  ";
+		System.out.println(empty.isEmpty());
+		System.out.println(blank.isBlank());
+		char []chars = a.toCharArray();
+		System.out.println("Array Char:");
+		for(char c : chars){
+		    System.out.print(c +" ");
+		}
+		System.out.println();
+		int num = 101;
+		System.out.println(String.valueOf(num));
+		System.out.println(b.repeat(2));
+	}
+}
