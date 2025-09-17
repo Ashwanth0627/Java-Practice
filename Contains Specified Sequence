@@ -1,0 +1,7 @@
+class Main {
+	public static void main(String[]args) {
+		String a = "Ashwanth";
+		String b = "a";
+		System.out.println(a.contains(b));
+	}
+}
