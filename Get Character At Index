@@ -1,0 +1,9 @@
+import java.util.*;
+class Main {
+	public static void main(String[]args) {
+		String a = "Java Exercise";
+		System.out.println("The Postion of 3:"+a.charAt(2));
+
+		System.out.println("The Postion of 5:"+a.charAt(5));
+	}
+}
